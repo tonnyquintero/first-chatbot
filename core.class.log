@@ -2,37 +2,205 @@
   key: {
     remoteJid: '573234257398@s.whatsapp.net',
     fromMe: false,
-    id: '816821C3EE7577FC238242C5B4A06E13',
+    id: '6DAA949398FC22BA6D4FC81A51A3BD06',
     participant: undefined
   },
-  messageTimestamp: 1714436830,
+  messageTimestamp: 1714522865,
   pushName: 'Anthony',
   broadcast: false,
   message: Message {
-    conversation: 'Hy',
+    conversation: 'Hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hy',
+  body: 'Hola',
   from: '573234257398'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0931cc9e-7097-4b48-9010-45b1b643eaf9',
-  keyword: 'key_800ebe09-ee38-48ae-8d60-8db089881923',
-  answer: 'Este es el flujo welcome',
+  ref: 'ans_679833df-e078-4633-9cb3-8f8590f9c6af',
+  keyword: 'key_77c064e8-3ff7-4dd0-996b-24534721c9a6',
+  answer: 'Bienvenido a tu restaurante 👨🏻‍🍳 estamos para servirte 🍝🥤   ESCRIBE LA PALABRA "MENU"',
   options: {
-    media: 'https://www.sus-medicos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsus1.e20ce011.jpg&w=640&q=75',
+    media: 'https://www.sus-medicos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoRestaurante.bf592f7c.png&w=1080&q=75',
     buttons: [],
     capture: false,
     child: null,
-    delay: 3000,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '1c52d1a3171ab5f6491c62e7ed93bdbe'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: 'EFB3549533BE2FD72E7B3260BAA3113C',
+    participant: undefined
+  },
+  messageTimestamp: 1714522875,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573234257398'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b89cf87c-2d83-4fce-a8b8-a6fc19f8aa51',
+  keyword: 'key_a26b50e8-e948-4e8a-9c22-1321a4912a78',
+  answer: 'PUEDES ELEGIR ALGUNA DE ESTAS OPCIONES:\n' +
+    '\n' +
+    'Presiona el número 1 - Para ver nuestra carta 📕\n' +
+    'Presiona el número 2 - Para realizar una reservación 🙋🏻‍♂️\n' +
+    'Presiona el número 3 - Para realizar una consulta 👨🏻‍🍳\n' +
+    '\n' +
+    '\n' +
+    'Presiona el número 0 - Para Salir ↪️\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: true
   },
-  refSerialize: '09bacc3d486fe36d829a14d322612fe5'
+  refSerialize: '1d8479402bd53b3936ffb06799bc73d6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: '0CF47069A1C75EF8F2B41211B79512AD',
+    participant: undefined
+  },
+  messageTimestamp: 1714522885,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '573234257398'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: '4D6B0E17B1252870DBB9FCF0A4A9F266',
+    participant: undefined
+  },
+  messageTimestamp: 1714522916,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: 'Yo quiero',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Yo quiero',
+  from: '573234257398'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_679833df-e078-4633-9cb3-8f8590f9c6af',
+  keyword: 'key_77c064e8-3ff7-4dd0-996b-24534721c9a6',
+  answer: 'Bienvenido a tu restaurante 👨🏻‍🍳 estamos para servirte 🍝🥤   ESCRIBE LA PALABRA "MENU"',
+  options: {
+    media: 'https://www.sus-medicos.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoRestaurante.bf592f7c.png&w=1080&q=75',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '1c52d1a3171ab5f6491c62e7ed93bdbe'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: 'B979D5CBB6700C41F332DAF610C75BCA',
+    participant: undefined
+  },
+  messageTimestamp: 1714522984,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menu',
+  from: '573234257398'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b89cf87c-2d83-4fce-a8b8-a6fc19f8aa51',
+  keyword: 'key_a26b50e8-e948-4e8a-9c22-1321a4912a78',
+  answer: 'PUEDES ELEGIR ALGUNA DE ESTAS OPCIONES:\n' +
+    '\n' +
+    'Presiona el número 1 - Para ver nuestra carta 📕\n' +
+    'Presiona el número 2 - Para realizar una reservación 🙋🏻‍♂️\n' +
+    'Presiona el número 3 - Para realizar una consulta 👨🏻‍🍳\n' +
+    '\n' +
+    '\n' +
+    'Presiona el número 0 - Para Salir ↪️\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '1d8479402bd53b3936ffb06799bc73d6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573234257398@s.whatsapp.net',
+    fromMe: false,
+    id: '1BEE0C5EF40519DEBEC5A2E7904396A9',
+    participant: undefined
+  },
+  messageTimestamp: 1714522989,
+  pushName: 'Anthony',
+  broadcast: false,
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573234257398'
 }

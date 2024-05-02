@@ -1,0 +1,8 @@
+PUEDES ELEGIR ALGUNA DE ESTAS OPCIONES:
+
+Presiona el número 1 - Para ver nuestra carta 📕
+Presiona el número 2 - Para realizar una reservación 🙋🏻‍♂️
+Presiona el número 3 - Para realizar una consulta 👨🏻‍🍳
+
+
+Presiona el número 0 - Para Salir ↪️
